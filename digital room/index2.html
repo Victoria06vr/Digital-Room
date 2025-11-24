@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Answer Box</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+ <h1>Hidden letters</h1>
+    <input id="answerInput" class="input-box" placeholder="Type your answer here..." autocomplete="off">
+
+    <!-- Correct Popup -->
+    <div id="correctPopup" class="popup">
+        <span class="close-btn" onclick="closePopup('correctPopup')">&times;</span>
+        <p>Correct. Here is your clue! </p>
+        <p><i>The circle of traitors is perfectly divided - 3 sons and 3 daughters of the museum god.</i></p>
+    </div>
+
+    <!-- Wrong Popup -->
+    <div id="wrongPopup" class="popup">
+        <span class="close-btn" onclick="closePopup('wrongPopup')">&times;</span>
+        <p>Wrong, try again.</p>
+    </div>
+
+    <script src="index2.js"></script>
+</body>
+</html>

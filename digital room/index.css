@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("photos/img.png") no-repeat center center fixed;
+    background-size: cover;   /* Make image fill screen */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Timer text */
+#timer {
+    font-size: 200px;
+    color: #ffffcc;
+    text-align: center;
+    margin-bottom: 10px; /* was 40px */
+}
+
+/* Buttons */
+
+
+button {
+    font-size: 24px;
+    padding: 10px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.musicButton {
+    font-size: 10px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: gray;
+    opacity: 40%;
+}
+
+#musicControls {
+    display: flex;
+    gap: 10px;        /* space between the buttons */
+    margin-top: 10px; /* optional spacing from timer buttons */
+}

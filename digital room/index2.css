@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("photos/img.png") no-repeat center center fixed;
+    background-size: cover;   /* Make image fill screen */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #f9de00;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.input-box {
+    width: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 600px;
+    padding: 90px;
+    border-radius:40px;
+    text-align: center;
+    display: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.popup p {
+    font-size: 30px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
